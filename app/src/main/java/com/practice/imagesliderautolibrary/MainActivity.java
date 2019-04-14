@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
+        * Library Guides Url
+        * https://github.com/smarteist/android-image-slider
+        * */
+
         imagesArray = new int[]{R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.four};
 
         sliderLayout = findViewById(R.id.imageSlider);
